@@ -1,6 +1,6 @@
 <template>
   <!-- http://localhost:7456/ -->
-  <!-- /public/cocosFrame/index.html -->
+  <!-- ./web-mobile/index.html -->
   <iframe
     ref="cocosFrame"
     id="cocospreview"
