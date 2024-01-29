@@ -1,0 +1,34 @@
+{
+    "name": "ssr-shaderfx-editor",
+    "version": "5.0.0",
+    "main": "./main.js",
+    "description": "Visual Shader Editor for CocosCreator",
+    "author": "SuperSuRaccoon",
+    "panels": {
+        "default": {
+            "title": "ssr-shaderfx-editor",
+            "type": "dockable",
+            "main": "./panels/index.js",
+            "size": {
+                "width": 1136,
+                "height": 640
+            }
+        }
+    },
+    "contributions": {
+        "menu": [
+            {
+                "path": "i18n:menu.extension",
+                "label": "i18n:ssr-shaderfx-editor",
+                "message": "open"
+            }
+        ],
+        "messages": {
+            "open": {
+                "methods": [
+                    "openPanel"
+                ]
+            }
+        }
+    }
+}

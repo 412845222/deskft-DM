@@ -1,0 +1,132 @@
+{
+  "ver": "2.3.12",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "a46948f9-4189-461e-b972-abcfb1e450eb",
+  "files": [],
+  "subMetas": {
+    "67498": {
+      "importer": "gltf-embeded-image",
+      "uuid": "a46948f9-4189-461e-b972-abcfb1e450eb@67498",
+      "displayName": "",
+      "id": "67498",
+      "name": "admin.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1f532": {
+      "importer": "gltf-mesh",
+      "uuid": "a46948f9-4189-461e-b972-abcfb1e450eb@1f532",
+      "displayName": "",
+      "id": "1f532",
+      "name": "柱体.001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 252
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "a46948f9-4189-461e-b972-abcfb1e450eb@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a46948f9-4189-461e-b972-abcfb1e450eb@67498"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3b7b6": {
+      "importer": "gltf-scene",
+      "uuid": "a46948f9-4189-461e-b972-abcfb1e450eb@3b7b6",
+      "displayName": "",
+      "id": "3b7b6",
+      "name": "player_ball.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "admin",
+        "uri": "a46948f9-4189-461e-b972-abcfb1e450eb@67498"
+      }
+    ],
+    "redirect": "a46948f9-4189-461e-b972-abcfb1e450eb@3b7b6",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "a46948f9-4189-461e-b972-abcfb1e450eb@1f532"
+      ],
+      "skeletons": [],
+      "textures": [
+        "a46948f9-4189-461e-b972-abcfb1e450eb@e39f7"
+      ],
+      "materials": [
+        "1d83735a-9003-4344-8457-426e26df2f77",
+        "97a99039-8169-4227-9df0-0f841c49a178"
+      ],
+      "scenes": [
+        "a46948f9-4189-461e-b972-abcfb1e450eb@3b7b6"
+      ]
+    },
+    "dumpMaterials": true,
+    "depthWriteInAlphaModeBlend": false,
+    "materialDumpDir": "db://assets/model/Materials_player_ball"
+  }
+}

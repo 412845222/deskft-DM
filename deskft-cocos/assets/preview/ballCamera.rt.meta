@@ -1,0 +1,40 @@
+{
+  "ver": "1.2.2",
+  "importer": "render-texture",
+  "imported": true,
+  "uuid": "643ffa14-6c40-4dba-9d31-8b475b276197",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "f9941": {
+      "importer": "rt-sprite-frame",
+      "uuid": "643ffa14-6c40-4dba-9d31-8b475b276197@f9941",
+      "displayName": "ballCamera",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "imageUuidOrDatabaseUri": "643ffa14-6c40-4dba-9d31-8b475b276197",
+        "width": 300,
+        "height": 200
+      },
+      "ver": "1.0.0",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "width": 300,
+    "height": 200,
+    "anisotropy": 0,
+    "minfilter": "linear",
+    "magfilter": "linear",
+    "mipfilter": "none",
+    "wrapModeS": "repeat",
+    "wrapModeT": "repeat",
+    "redirect": "643ffa14-6c40-4dba-9d31-8b475b276197@f9941"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "dweb-blive",
+  "private": true,
+  "version": "0.0.0",
+  "type": "commonjs",
+  "main": "electron/electron_main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "electron": "electron .",
+    "electron:builder": "electron-builder"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "vue": "^3.2.47",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/animejs": "^3.1.7",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vue-tsc": "^1.4.2",
+    "electron": "^28.2.0"
+  },
+  "build": {
+    "appId": "com.dweb.client",
+    "productName": "Dweb Client",
+    "directories": {
+      "output": "build"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*"
+    ],
+    "mac": {
+      "category": "public.app-category.developer-tools",
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false,
+      "perMachine": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Dweb",
+      "artifactName": "${productName} Setup ${version}.${ext}"
+    }
+  }
+}

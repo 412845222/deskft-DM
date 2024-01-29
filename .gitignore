@@ -1,0 +1,30 @@
+
+
+#vue3+electron
+deskft-client/node_modules
+deskft-client/electron/dist
+
+
+#///////////////////////////
+# Cocos Creator 3D Project
+#///////////////////////////
+deskft-cocos/library/
+deskft-cocos/temp/
+deskft-cocos/local/
+deskft-cocos/build/
+deskft-cocos/profiles/
+deskft-cocos/native
+#//////////////////////////
+# NPM
+#//////////////////////////
+deskft-cocos/node_modules/
+
+#//////////////////////////
+# VSCode
+#//////////////////////////
+.vscode/
+
+#//////////////////////////
+# WebStorm
+#//////////////////////////
+.idea/

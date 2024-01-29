@@ -1,0 +1,45 @@
+{
+  "general": {
+    "designResolution": {
+      "width": 1280,
+      "height": 800
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "RED"
+      },
+      {
+        "index": 2,
+        "name": "BLUE"
+      },
+      {
+        "index": 3,
+        "name": "BLUEDOOR"
+      },
+      {
+        "index": 4,
+        "name": "REDDOOR"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 7,
+      "1": 15,
+      "2": 23,
+      "3": 2,
+      "4": 4
+    }
+  },
+  "__version__": "1.0.6",
+  "fbx": {
+    "legacyFbxImporter": {
+      "visible": true
+    }
+  },
+  "script": {
+    "preserveSymlinks": true
+  },
+  "custom_joint_texture_layouts": []
+}

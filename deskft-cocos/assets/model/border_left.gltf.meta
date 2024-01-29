@@ -1,0 +1,78 @@
+{
+  "ver": "2.3.12",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "8db2ab09-455a-4e54-beea-5ae6caf7f488",
+  "files": [],
+  "subMetas": {
+    "fa0d6": {
+      "importer": "gltf-mesh",
+      "uuid": "8db2ab09-455a-4e54-beea-5ae6caf7f488@fa0d6",
+      "displayName": "",
+      "id": "fa0d6",
+      "name": "立方体.003.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cb37c": {
+      "importer": "gltf-scene",
+      "uuid": "8db2ab09-455a-4e54-beea-5ae6caf7f488@cb37c",
+      "displayName": "",
+      "id": "cb37c",
+      "name": "border_left.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "redirect": "8db2ab09-455a-4e54-beea-5ae6caf7f488@cb37c",
+    "assetFinder": {
+      "meshes": [
+        "8db2ab09-455a-4e54-beea-5ae6caf7f488@fa0d6"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "8db2ab09-455a-4e54-beea-5ae6caf7f488@cb37c"
+      ]
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}
