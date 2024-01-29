@@ -2,8 +2,6 @@
 
 #vue3+electron
 deskft-client/node_modules
-deskft-client/electron/dist
-
 
 #///////////////////////////
 # Cocos Creator 3D Project
